@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -136,9 +136,23 @@
             </div>
 
             <!-- Enquire now !MOBILE ONLY! !-->
-            <div id="enquire-wrapper" class="hidden-sm hidden-md hidden-lg">
-                <div class="col-xs-10 col-xs-offset-1">
-                    <p>enquire now form ...</p>
+            <div id="enquire-outer-wrapper" class="container-fluid hidden-sm hidden-md hidden-lg">
+                <div id="enquire-inner-wrapper" class="col-xs-10 col-xs-offset-1">
+                    <div id="form-header" class="col-xs-12">
+                        <h4>Enquire now</h4>
+                    </div>
+
+                    <form>
+                        <div class="form-group">
+                            <input type="name" class="form-control" id="name" placeholder="Name">
+                            <input type="email" class="form-control" id="email" placeholder="Email Address">
+                            <input type="phone" class="form-control" id="phone" placeholder="Phone number">
+                            <textarea class="form-control" placeholder="I'm interested in apartment ..." rows="3"></textarea>
+                        </div>
+                        <div id="enquire-submit" class="col-xs-12">
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </div>
+                    </form>
                 </div>
             </div>
 
