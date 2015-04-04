@@ -1,6 +1,6 @@
 # TODO
 
-  * tmuxinator flow
-  * pen/paper brainstorm on layout # mobile first!!!
   * mobile implementation
+    * photoshop image get
+    * each section one by one
   * documentation
