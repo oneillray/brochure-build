@@ -1,6 +1,9 @@
 # TODO
-
-  * mobile implementation
-    * photoshop image get
-    * each section one by one
-  * documentation
+  * basic styles
+  * icons
+  * menu javascript
+  * sass refactor
+  * dev setup docs
+  * lazyload
+  * carousel navigation
+  * custom bootstrap load
