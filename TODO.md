@@ -8,4 +8,4 @@
   x carousel navigation
   x custom bootstrap load
   * sass refactor
-  * dev setup docs + docs (lazyload)
+  x dev setup docs + docs (lazyload)
