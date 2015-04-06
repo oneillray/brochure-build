@@ -5,7 +5,7 @@
     * How the heck do I use SVG?
   x menu javascript
   x lazyload
-  * carousel navigation
+  x carousel navigation
   * custom bootstrap load
   * sass refactor
   * dev setup docs + docs (lazyload)
