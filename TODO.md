@@ -1,7 +1,8 @@
 # TODO
   x basic styles
   * icons
-  * menu javascript
+    * How the heck do I use SVG?
+  x menu javascript
   * sass refactor
   * dev setup docs
   * lazyload
