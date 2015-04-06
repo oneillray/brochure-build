@@ -1,5 +1,5 @@
 # TODO
-  * basic styles
+  x basic styles
   * icons
   * menu javascript
   * sass refactor
