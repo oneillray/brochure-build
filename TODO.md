@@ -6,6 +6,6 @@
   x menu javascript
   x lazyload
   x carousel navigation
-  * custom bootstrap load
+  x custom bootstrap load
   * sass refactor
   * dev setup docs + docs (lazyload)
