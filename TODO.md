@@ -3,7 +3,7 @@
   * MOBILE
     x basic styles
     * exact styles, clean up to match PSD
-    * icons
+    x icons
     x menu javascript
     x lazyload
     x carousel navigation
