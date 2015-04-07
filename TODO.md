@@ -2,7 +2,7 @@
 
   * MOBILE
     x basic styles
-    * exact styles, clean up to match PSD
+    x exact styles, clean up to match PSD
     x icons
     x menu javascript
     x lazyload
