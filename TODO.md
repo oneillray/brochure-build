@@ -1,7 +1,6 @@
-# TODO
+* BUGS
+  * Menu: About z-index sitting ontop of other menu item
+  * 3 Bedroom: images not being responsive
 
-  * DESKTOP
-    * basic layout + styles
-    * Remove extra width bug (can scroll right!)
-    * Let Ray know about imgs and why not dummy-images are
-      responsive
+* TODO
+  * Desktop: Location, Contact Us
