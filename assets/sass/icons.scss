@@ -1,0 +1,47 @@
+.icon {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	fill: currentColor;
+	float: left;
+  	margin-left: 20px;
+}
+
+/* ==========================================================================
+Example showing how to change the color/size of the icons:
+.icon-name {
+	font-size: 32px;
+	fill: red;
+}
+========================================================================== */
+
+.icon-ornate {
+
+	width: 54px;
+	height: 14px;
+
+}
+
+.icon-walking {
+
+	width: 2em;
+	height: 2em;
+}
+
+#major-icons {
+
+	.icon {
+
+		width: 4em;
+  		height: auto;
+	}
+}
+
+
+#rooms-wrapper {
+
+	.icon {
+
+		color: white;
+	}
+}
