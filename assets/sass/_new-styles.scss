@@ -1,0 +1,180 @@
+// Bootstrap overwrite
+
+
+
+* {
+
+	padding: 0;
+	margin: 0;
+}
+
+body {
+
+	padding-top: 50px;
+}
+
+
+.container {
+
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.row {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin: 0;
+
+}
+
+
+// test full with image
+
+
+.split {
+
+  width: 100%;
+
+    @media (min-width: $screen-sm){
+
+	  float: left;
+	  width: 50%;
+  }
+}
+
+
+
+
+.split-60 {
+
+	width: 100%;
+
+	@media (min-width: $screen-sm){
+
+	  float: left;
+	  width: 60%;
+  }
+
+}
+
+.split-40 {
+
+	width: 100%;
+
+	@media (min-width: $screen-sm){
+
+	  float: left;
+	  width: 40%;
+  }
+
+}
+
+.contact-details {
+
+	background: #8aa0aa;
+	color: white;
+	height: 200px;
+	text-align: center;
+	padding: 9.5% 5% 3.5%;
+
+
+}
+
+address {
+
+	font-size: 2em;
+	color: $black1;
+
+}
+
+
+.about-image-left {
+
+	background: url('../images/about-left-image.jpg') no-repeat; 
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 350px;
+	background-position: center center;
+
+	@media (min-width: $screen-sm){ 
+
+	height: 600px;
+
+	}
+}
+
+.about-intro-section  {
+
+	background: #8aa0aa;
+	color: white;
+	height: 200px;
+	padding: 2.5% 5% 3.5%;
+}
+
+
+.about-image-right {
+
+	background: #373940;
+	height: 600px;
+	background: url('../images/about-right-image.jpg') no-repeat; 
+	
+}
+
+
+// Rooms section 
+
+
+
+.bedroom-3-left {
+	background: url('../images/3-bedroom-image_lg.jpg') no-repeat;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+
+}
+
+
+.bedroom-3-right {
+	background: url('../images/rooms-1.jpg') no-repeat;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+}
+
+.bedroom-2-left {
+	background: url('../images/rooms-2.jpg') no-repeat;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+
+}
+
+.bedroom-2-right {
+	background: url('../images/2-bedroom-image_lg.jpg') no-repeat;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+}
+
+.bedroom-3-left {}
+.bedroom-2-right {}
+
+
+// Rates 
+
+#rates {
+
+	background: $blue2;
+	clear: both;
+	height: 695px;
+
+	@media (min-width: $screen-sm){ 
+	
+		height: 583px;
+
+	}
+}
+
