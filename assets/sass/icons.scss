@@ -24,8 +24,11 @@ Example showing how to change the color/size of the icons:
 
 .icon-walking {
 
-	width: 2em;
-	height: 2em;
+  width: 17em;
+  height: 3em;
+  @media (min-width: $screen-md){
+  	margin: 0 auto;
+  }
 }
 
 #major-icons {
@@ -44,4 +47,12 @@ Example showing how to change the color/size of the icons:
 
 		color: white;
 	}
+}
+
+
+.icon-contain {
+  width: 30px;
+  display: block;
+  height: 20px;
+  margin: 0 auto;
 }

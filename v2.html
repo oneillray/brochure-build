@@ -887,11 +887,13 @@
                     <img width="100%" src="https://maps.googleapis.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&zoom=13&size=1500x300&maptype=roadmap&markers=color:blue%7Clabel:S%7C40.702147,-74.015794&markers=color:green%7Clabel:G%7C40.711614,-74.012318&markers=color:red%7Clabel:C%7C40.718217,-73.998284" alt="">
                 </div>
                 <div class="row">
-                    <div class="col-xs-6">
+                    <div class="col-xs-12 col-sm-6">
                         <p>It is very close to CUH, UCC, CIT, Tyndall National Institute, Model Farm Road and Melbourne Business Parks yet only a few minutes from Lee Fields, MardykeArena , bus routes and an easy walk or cycle to Cork City Centre.</p>
                     </div>
-                    <div class="col-xs-6">
-                         <svg class="icon icon-walking"><use xlink:href="#icon-walking" aria-hidden="true"></use></svg>
+                    <div class="col-xs-12 col-sm-6">
+                         <div class="icon-container">
+                             <svg class="icon icon-walking"><use xlink:href="#icon-walking" aria-hidden="true"></use></svg>
+                         </div>
                         <h3>Walking Times</h3>
                         <ul>
                             <li>
@@ -918,38 +920,47 @@
 
                 <!-- Contact Us -->
             <section id="contact">
-                <div class="">
-                    <h4 class="title">Contact Us</h4>
-                    <div id="contact-form">
-                        <form>
-                        <div class="row">
-                            <div class="form-group col-xs-12 col-sm-6">
-                                <label for="contact-name">Name</label>
-                                <input type="name" class="form-control" id="contact-name">
-                            </div>
-                            <div class="form-group col-xs-12 col-sm-6">
-                                <label for="contact-email">Email</label>
-                                <input type="email" class="form-control" id="contact-email">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="form-group col-xs-12 col-sm-6">
-                                <label for="contact-phone">Phone Number</label>
-                                <input type="phone" class="form-control" id="contact-phone">
-                            </div>
-                            <div class="form-group col-xs-12 col-sm-6">
-                                <label for="contact-text">Message</label>
-                                <textarea class="form-control" rows="3"> </textarea>
-                            </div>
-                        </div>
-                            <div class="row">
-                                <div id="contact-submit" class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3">
-                                 <button type="submit" class="btn btn-default">Submit</button>
-                                </div>
-                            </div>
-                        </form>
+    <h1>Contact Us</h1>
+
+            <form id="" class="form-horizontal row">
+
+                <div class="col-md-6">
+                    <div class="row">
+                        <!-- Name -->
+                          <div class="col-xs-12 form-group">
+                          <input id="Name" name="Name" type="text" placeholder="Your Full Name" class="form-control input-md" required="">
+                          </div>
+
+                        <!-- Email Address -->
+                          <div class="col-xs-12 form-group">
+                          <input id="" name="" type="text" placeholder="Your email address" class="form-control input-md" required=""> 
+                          </div>
+
+                        <!-- Phone number -->
+                          <div class="col-xs-12 form-group">
+                          <input id="phone" name="phone" type="text" placeholder="You phone number" class="form-control input-md">  
+                          </div>      
+                    </div>
                 </div>
-            </section>
+
+
+                <div class="col-md-6">
+                    <div class="row">
+                        <!-- Mesage -->
+                          <div class="col-xs-12 form-group">                     
+                            <textarea class="form-control" id="" name="">I would like to enquire about..</textarea>
+                          </div>
+
+                        <!-- Button -->
+                          <div class="col-xs-12 form-group">
+                            <button id="send-button" name="send-button" class="btn btn-send">Send</button>
+                          </div>
+                      </div>
+                </div>
+
+            </form>
+
+</section>
 
 
         </div>
