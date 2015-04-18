@@ -542,17 +542,14 @@
                             <div class="bedroom-2-right"> </div>
                         </div>
                     </div>
-                    <div class="col-md-4 enquire-outer-wrapper">
-                          <div id="enquire-outer-wrapper" class="container-fluid">
-                            <div id="enquire-inner-wrapper" class="col-xs-10 col-xs-offset-1">
-                                <div id="form-header" class="col-xs-10 col-xs-offset-1">
-                                    <h4>Enquire now</h4>
-                                    <span class="">
-                                    <svg class="icon icon-ornate"><use xlink:href="#icon-ornate" aria-hidden="true"></use></svg>
-                                    </span>
-                                </div>
-
-                                <form>
+                    <div class="col-md-4" id="enquire-outer-wrapper">
+                          <div id="enquire-inner-wrapper">
+                              <div id="form-header">
+                                   <h4>Enquire now</h4>
+                              </div>
+                                  <span class="">
+                                  <svg class="icon icon-ornate"><use xlink:href="#icon-ornate" aria-hidden="true"></use></svg> </span>
+                                 <form>
                                     <div class="form-group">
                                         <input type="name" class="form-control" id="name" placeholder="Name">
                                         <input type="email" class="form-control" id="email" placeholder="Email Address">
@@ -563,8 +560,8 @@
                                         <button type="submit" class="btn btn-default">Submit</button>
                                     </div>
                                 </form>
-                            </div>
-                        </div>
+                            
+                          </div>
                     </div>
             </div>
         </section>
@@ -793,7 +790,7 @@
                              <svg class="icon icon-laundry"><use xlink:href="#icon-laundry" aria-hidden="true"></use></svg>
                              <h5>Fridge &amp; Freezer</h5>
                         </div>
-                        <div class="col-xs-6 col-sm-12">
+                        <div class="col-xs-6 col-sm-12 hidden-xs">
                             <svg class="icon icon-laundry"><use xlink:href="#icon-laundry" aria-hidden="true"></use></svg>
                             <h5>Central Heating</h5>
                         </div>
@@ -811,8 +808,8 @@
                            <h5>Resident Parking</h5>
                         </div>
                          <div class="col-xs-6 col-sm-4">
-                            <svg class="icon icon-walking"><use xlink:href="#icon-walking" aria-hidden="true"></use></svg>
-                             <h5>Good location</h5>
+                            <svg class="icon icon-laundry"><use xlink:href="#icon-laundry" aria-hidden="true"></use></svg>
+                            <h5>Central Heating</h5>
                         </div>
                        
                         <div class="col-xs-6 col-sm-4">
@@ -887,7 +884,7 @@
             <section id="location">
                 <h1>Location</h1>
                 <div class="row">
-                    <img src="assets/images/map.jpg" alt="">
+                    <img width="100%" src="https://maps.googleapis.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&zoom=13&size=1500x300&maptype=roadmap&markers=color:blue%7Clabel:S%7C40.702147,-74.015794&markers=color:green%7Clabel:G%7C40.711614,-74.012318&markers=color:red%7Clabel:C%7C40.718217,-73.998284" alt="">
                 </div>
                 <div class="row">
                     <div class="col-xs-6">
@@ -915,6 +912,42 @@
                             </li>
                         </ul>
                     </div>
+                </div>
+            </section>
+
+
+                <!-- Contact Us -->
+            <section id="contact">
+                <div class="">
+                    <h4 class="title">Contact Us</h4>
+                    <div id="contact-form">
+                        <form>
+                        <div class="row">
+                            <div class="form-group col-xs-12 col-sm-6">
+                                <label for="contact-name">Name</label>
+                                <input type="name" class="form-control" id="contact-name">
+                            </div>
+                            <div class="form-group col-xs-12 col-sm-6">
+                                <label for="contact-email">Email</label>
+                                <input type="email" class="form-control" id="contact-email">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-xs-12 col-sm-6">
+                                <label for="contact-phone">Phone Number</label>
+                                <input type="phone" class="form-control" id="contact-phone">
+                            </div>
+                            <div class="form-group col-xs-12 col-sm-6">
+                                <label for="contact-text">Message</label>
+                                <textarea class="form-control" rows="3"> </textarea>
+                            </div>
+                        </div>
+                            <div class="row">
+                                <div id="contact-submit" class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3">
+                                 <button type="submit" class="btn btn-default">Submit</button>
+                                </div>
+                            </div>
+                        </form>
                 </div>
             </section>
 
