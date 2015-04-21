@@ -1,0 +1,28 @@
+#intro {
+	
+	background: url('../images/intro-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+  height: 200px;
+  @media (min-width: $screen-sm){
+
+	 height: 500px;
+
+  }
+
+
+}
+
+
+.intro-block {
+
+  background: $black1;
+  padding: 2em;
+  color: #fff;
+  font-family: $sans-serif;
+  margin-top: 5em;
+  float: right;
+  font-size: 2em;
+
+
+}

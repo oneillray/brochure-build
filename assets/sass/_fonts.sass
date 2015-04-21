@@ -25,13 +25,14 @@ h5
   font-style: normal
 
 h1::after
-  
-  background: url('http://cl.ly/0Z3A1D3R3o1T/ornate-2.svg') no-repeat
-  display: block
-  content: ' '
-  background-size: 50px
-  padding-top: 10px
-  height: 20px
-  margin: 0 auto
-  color: $black3
-  width: 100px
+  display: none
+  @media (min-width: $screen-sm)
+    background: url('../images/ornate-2.svg') no-repeat
+    display: block
+    content: ' '
+    background-size: 32px
+    padding-top: 10px
+    height: 20px
+    margin: 0 auto
+    color: $black3
+

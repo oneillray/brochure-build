@@ -1,17 +1,17 @@
 /*
 Error: Undefined variable: "$black1".
-        on line 14 of /Users/Ray/Sites/brochure-build/assets/sass/header.scss
+        on line 33 of /Users/Ray/Sites/brochure-build/assets/sass/header.scss
 
-9: }
-10: 
-11: 
-12: .about-title {
-13: 
-14: 	color: $black1;
-15: }
+28: }
+29: 
+30: 
+31: .about-title {
+32: 
+33: 	color: $black1;
+34: }
 
 Backtrace:
-/Users/Ray/Sites/brochure-build/assets/sass/header.scss:14
+/Users/Ray/Sites/brochure-build/assets/sass/header.scss:33
 /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/script/tree/variable.rb:49:in `_perform'
 /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/script/tree/node.rb:50:in `perform'
 /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/gems/1.9.1/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
@@ -65,4 +65,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$black1\".\A         on line 14 of /Users/Ray/Sites/brochure-build/assets/sass/header.scss\A \A 9: }\A 10: \A 11: \A 12: .about-title {\A 13: \A 14: 	color: $black1;\A 15: }"; }
+  content: "Error: Undefined variable: \"$black1\".\A         on line 33 of /Users/Ray/Sites/brochure-build/assets/sass/header.scss\A \A 28: }\A 29: \A 30: \A 31: .about-title {\A 32: \A 33: 	color: $black1;\A 34: }"; }

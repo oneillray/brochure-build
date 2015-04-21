@@ -1,6 +1,25 @@
+
+// New Header / Navigation logo
+
+.cd-logo  {
+
+	width: 100%;
+}
+
 .logo {
-	
-	margin: 1em;
+
+  width: 4%;
+  max-width: 27px;
+  float: left;
+
+}
+
+
+.logo-name {
+  width: 96%;
+  float: right;
+  font-size: 1.6em;
+  color: white;
 }
 
 #about-text {

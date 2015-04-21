@@ -1,20 +1,13 @@
 #enquire-outer-wrapper
   background-color: $black1
-  margin-top: -14px
-
-#enquire-inner-wrapper
-  background-color: $black3
-  position: relative
-  top: 20px
-  margin: 1em
-  top: -40px
-  min-height: 480px
-
+  @media (min-width: $screen-md)
+    height: 600px
 
 #enquire-submit
   text-align: center
   margin-bottom: 20px
   background-color: $blue2
+  padding: 1em
 
 form input, form textarea
   margin-top: 10px
@@ -41,7 +34,6 @@ form #name
     border: none
 
 #form-header
-  margin-top: 10px
   background-color: $blue3
 
   h4
@@ -51,6 +43,7 @@ form #name
     padding-top: 20px
     padding-bottom: 20px
     font-family: $heading
+    margin-top: 0
 
 .form-group
   top: -60px

@@ -7,7 +7,12 @@
 #rates h1
   color: $black3
   position: relative
-  top: -9px
+  top: 10px
+  @media (min-width: $screen-sm)
+    float: right
+
+    text-align: right
+    right: 20px
 
 .rates-left
   padding-right: 5px
@@ -92,6 +97,12 @@
 #rates-info-title
   text-align: left
   padding: 10px 10px 10px 10px
+  
+  h5::before
+    content: '+'
+    color: $blue1
+    font-size: 2em;
+    float: left;
 
   span
     float: left
@@ -101,3 +112,7 @@
     font-size: 1.2em
     padding-top: 5px
     margin-left: 40px
+
+#rates p
+  color: white
+  margin-bottom: 3em

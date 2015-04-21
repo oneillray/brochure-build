@@ -11,9 +11,14 @@ section {
 	margin: 0;
 }
 
+
+a  {
+
+	color: white;
+}
+
 body {
 
-	padding-top: 50px;
 	background: #ececec;
 }
 
@@ -21,11 +26,9 @@ body {
 .container {
 
 	max-width: 1135px;
-	background: white;
 	padding: 0;
 	margin: 0;
 	margin: 0 auto;
-	border: 1px solid #d8d8d8;
 
 }
 
@@ -92,7 +95,7 @@ body {
 
 address {
 
-	font-size: 2em;
+	font-size: 1.6em;
 	color: $black1;
 
 }
@@ -116,10 +119,15 @@ address {
 
 .about-intro-section  {
 
-	background: #8aa0aa;
-	color: white;
+	background: #fff;
+	color: $blue1;
 	height: 200px;
 	padding: 2.5% 5% 3.5%;
+
+	h1 {
+
+		color: $black1;
+	}
 }
 
 
